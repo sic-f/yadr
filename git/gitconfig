@@ -110,7 +110,7 @@
   default = upstream
 [core]
   autocrlf = false
-  editor = vim
+  editor = nvim
   excludesfile = ~/.yadr/git/gitignore
 [advice]
   statusHints = false
@@ -125,3 +125,8 @@
   enabled = true
 [include]
   path = .gitconfig.user
+[user]
+	email = kikopineda@gmail.com
+	name = Francis Pineda
+[github]
+	user = sic-f
